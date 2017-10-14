@@ -21,6 +21,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             
             //Insert the text we want at the current insertion point
             let currentLine = insertionPoint.start.line
+            
             buffer.lines.insert("//*****************\n  //MARK: - \n//*****************", at: currentLine)
         
             //Prepare the line and column of a new insertion point (Where we will need to start typing after substitution)
