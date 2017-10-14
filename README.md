@@ -8,9 +8,11 @@ pragmaSpoof (Swift) is an Xcode source code editor extension. Once installed, yo
 //*****************
 ```
 
-with the insertion point always set ready to type in the heading you wish to appear in your jump menu in Xcode. It's a bit hit and miss to install and might take a try or two. But it's a huge time saver when reorganizing your Swift code. 
+with the insertion point always set ready to enter the section heading you wish to appear in your jump menu in Xcode. 
 
-If you don't already know, MARK: is the Swift equivalent of #pragma - in Objective-C. Super useful for breaking code into main sections. Swift is still all in green -- so not easy to spot, which is why I added some bling around it. 
+The extension is a bit hit and miss to install, and it might take a try or two. But it's a huge time saver when reorganizing your Swift code. 
+
+If you don't already know, MARK: is the Swift equivalent of #pragma - in Objective-C. It's super useful for breaking code into main sections. Unlike the awesome orange #pragma, the swift one is still all in commando green -- so not easy to spot, which is why I added some bling around it. Stay tuned and eventually I'll try to make it all orange. 
 
 
 ## Installation
@@ -21,25 +23,25 @@ Open it, but don't run the app.
 
 Product > Archive
 
-When the archive is complete Ctrl-click on the archive > Show in Finder
+When the archive is complete Ctrl-click on the archive > Show in Finder.
 
-Ctrl-click on the file > Show Package Contents
+Ctrl-click on the file > Show Package Contents.
 
 Open the Products folder > Applications folder. 
 
 Drag the file from that applications folder to your actual Applications folder.
 
-Close Xcode
+Close Xcode.
 
-Double click on the pragma.Spoof file you just dragged into your Applications folder
+Double click on the pragmaSpoof file you just dragged into your Applications folder.
 
-Open your System Preferences. In there, there should be the pragmaSpoof extension, with "Xcode Source Editor" checked. If it's not checked, check it. 
+Open your System Preferences. In there, there should be the pragmaSpoof extension with "Xcode Source Editor" checked. If it's not checked, check it. 
 
-IF YOU DON'T SEE IT HERE in the preferences, then you'll have to start over. Trash the file in your Applications folder. Try running the app once and restarting your computer. Eventually it will work. Took me some luck and pixie dust to get this installed the first time as well. If what I wrote above works the first time, please let me know. If you find a better way, I owe you a brew if you fill me in. 
+IF YOU DON'T SEE IT HERE in the preferences, then you'll have to start over. Trash the file in your Applications folder. Try running the app once and restarting your computer. Eventually it will work. It typically takes me some luck and pixie dust to get these installed into my main extensions as well. If what I wrote above works the first time, please let me know. If you find a better way, I owe you a brew if you fill me in. 
 
 Restart your machine
 
-In any of your Xcode projects, if you put your cursor in the source code to edit it, you should see pragma at the bottom of th e Editor menu. If not, see my comment above about trying again.
+In any of your Xcode projects, if you put your cursor in the source code to edit it, you should see pragma at the bottom of the Editor menu. If not, see my comment above about trying again.
 
 
 <h3>To use:</h3>
