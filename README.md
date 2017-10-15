@@ -2,11 +2,7 @@
 
 pragmaSpoof (Swift) is an Xcode source code editor extension. Once installed, you can set a keyboard command so that with a keystroke you can get this:
 
-```swift
-//*****************
-  //MARK: - 
-//*****************
-```
+![//MARK: -](https://github.com/fareast555/pragmaSpoof/blob/master/markdown.png)
 
 ...with the insertion point always set ready to enter the section heading you wish to appear in your jump menu in Xcode. 
 
